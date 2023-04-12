@@ -23,7 +23,7 @@ get_captcha = navegador.find_element(By.ID, 'recaptcha-demo').get_attribute('dat
 
 resolvedor_captcha = recaptchaV2Proxyless()
 
-# 0 ou 1, normalmente como 1 vai mostrando o status do serviço
+# 0 ou 1, normalmente como 1 vai mostrando o status do serviço, teste
 resolvedor_captcha.set_verbose(1)
 
 resolvedor_captcha.set_key(chave_api) #Colocar a chave da API
